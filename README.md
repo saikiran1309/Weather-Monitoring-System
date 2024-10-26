@@ -29,10 +29,18 @@ This project aims to create a real-time data processing system to monitor and an
 When we run the project using the command uvicorn src.app:app, it generates a host link. Upon accessing this link, we see buttons representing major metros in India: Delhi, Mumbai, Chennai, Bangalore, Kolkata, and Hyderabad. Clicking on any city button displays detailed weather information, including the average temperature, minimum and maximum temperatures, humidity, wind speed, and a 5-day forecast for that particular city. Additionally, each click on these buttons stores the data in the database, which is helpful for future data processing.
 
 ### Project Process Overview
-1. Launch the Application: Run the project with the command uvicorn src.app:app, generating a host link.
-2. User Interface: The application displays buttons for major Indian cities.
-3. Weather Data Retrieval: When a city button is clicked, the application retrieves and displays weather details such as average, minimum, and maximum temperatures, humidity, wind speed, and a 5-day forecast.
-4. Data Storage: Each interaction (button click) stores the retrieved weather data in the database for future processing and analysis.
+1. **Launch the Application:** Run the project with the command uvicorn src.app:app, generating a host link.
+2. **User Interface:** The application displays buttons for major Indian cities.<br><br>
+   ![Screenshot 2024-10-26 200456](https://github.com/user-attachments/assets/25bb1bd5-15ae-435a-b81f-209f88d6bb18)
+
+3. **Weather Data Retrieval:** When a city button is clicked, the application retrieves and displays weather details such as average, minimum, and maximum temperatures, humidity, wind speed, and a 5-day forecast. It also includes a converter to change temperatures from Celsius to other units.<br><br>
+   ![image_2024-10-26_20-05-57](https://github.com/user-attachments/assets/0541d7d1-182d-4090-b247-f2ccefc5f052)
+
+4. **Temperature Converter:** The application features a converter that allows users to easily change temperatures from Celsius to other units, such as Fahrenheit and Kelvin, enhancing user accessibility and experience.<br><br>
+   ![Screenshot 2024-10-26 200749](https://github.com/user-attachments/assets/7be3637c-e097-4292-9eb9-44c84f5f0a1b)
+
+5. **Data Storage:** Each interaction (button click) stores the retrieved weather data in the database for future processing and analysis.<br><br>
+   ![Screenshot 2024-10-26 202223](https://github.com/user-attachments/assets/040a2fc6-1d2e-4ad2-a980-a86c8b3aa3d0)
 
 ## Key Features
 
@@ -109,7 +117,6 @@ When we run the project using the command uvicorn src.app:app, it generates a ho
    ```
 
 ## Finally
-The Real-Time Weather Monitoring and Data Processing System is ready.
+You can implement and execute the code to verify The Real-Time Weather Monitoring and Data Processing System is working.
 ```
 Created By : Sai Kiran
-
