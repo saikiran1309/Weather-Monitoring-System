@@ -44,9 +44,9 @@ When we run the project using the command uvicorn src.app:app, it generates a ho
 
 ## Key Features
 
-- Data Integration: Continuously pulls real-time weather data from the OpenWeatherMap API for specified locations.
-- Data Aggregation: Applies rollups and aggregates to condense the data, providing summary metrics such as average temperature, humidity trends, and weather condition counts.
-- Real-Time Insights: Displays concise, up-to-date weather insights, enabling quick access to meaningful weather patterns and trends.
+- **Data Integration:** Continuously pulls real-time weather data from the OpenWeatherMap API for specified locations.
+- **Data Aggregation:** Applies rollups and aggregates to condense the data, providing summary metrics such as average temperature, humidity trends, and weather condition counts.
+- **Real-Time Insights:** Displays concise, up-to-date weather insights, enabling quick access to meaningful weather patterns and trends.
   
 ## Getting Started
 
