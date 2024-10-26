@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://icons.iconarchive.com/icons/bokehlicia/pacifica/128/weather-icon.png">
+    <title>Weather Monitoring Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Monitoring Dashboard</h1>
+            <p>Real-time weather conditions for major Indian metros.</p>
+        </header>
+        <div id="city-buttons" class="button-container">
+            <button onclick="fetchWeatherForCity('Delhi')">Delhi</button>
+            <button onclick="fetchWeatherForCity('Mumbai')">Mumbai</button>
+            <button onclick="fetchWeatherForCity('Chennai')">Chennai</button>
+            <button onclick="fetchWeatherForCity('Bangalore')">Bangalore</button>
+            <button onclick="fetchWeatherForCity('Kolkata')">Kolkata</button>
+            <button onclick="fetchWeatherForCity('Hyderabad')">Hyderabad</button>
+        </div>
+        <div id="weather-data"></div>
+        <div id="forecast-data"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
